@@ -1,0 +1,102 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Redressed&family=Roboto:wght@100&display=swap');
+
+header{
+	padding: 0;
+	margin: 0;
+	width: 97%;
+	padding-right: 3%;	
+	padding-bottom: 126px;
+	background-color: #7EC0EE;
+}
+
+header img{
+	padding-left: 3%;
+	width: 273px;
+	height: auto;
+	float: left;
+	padding-right: 10px;
+	padding-top: 0px;
+}
+header p{
+	text-align: center;
+	padding-top: 100px;
+ 	font-family: 'Roboto', sans-serif;
+ 	font-weight: bold;
+ 	font-size: 40px;
+}
+.romper{
+	clear: both;  
+}
+nav{
+	background-color: #336699;
+	width: 100%;
+}
+.opcionmenu{
+	float: left;
+	background-color: #336699;
+	font-family: 'Roboto', sans-serif;
+	font-size: 20px;
+	color: #FFFFFF;
+	text-align: center;
+	padding: 10px;
+}
+.opcionmenu2{
+	float: left;
+	background-color: #336699;
+	font-family: 'Roboto', sans-serif;
+	font-size: 20px;
+	color: #FFFFFF;
+	text-align: center;
+	padding-top: 10px;
+	padding-left: 10px;
+	padding-bottom: 10px;
+}
+
+.opcionmenu:hover {
+	background-color: #FFFFFF;
+	font-family: Tahoma;
+	font-size: 20px;
+	color: #336699;
+	border-radius: 10px 10px 0px 0px;
+}
+.opcionmenu2:hover {
+	background-color: #FFFFFF;
+	font-family: Tahoma;
+	font-size: 20px;
+	color: #336699;
+	border-radius: 10px 10px 0px 0px;
+}
+.romper{
+	clear: both;  
+}
+
+ol{
+	width: 100%;
+	list-style-type: upper-roman;
+	font-size: 50px;
+	padding-top: 15px;
+	font-family: 'Roboto', sans-serif;
+	text-align: center;
+	}
+#primerLista{
+	font-size: 30px;
+	padding-top: 10px;
+	font-family: 'Roboto', sans-serif;
+}
+footer{	
+	bottom: 0px;
+	position: fixed;
+	width: 90%;
+	padding-left: 5%;
+	padding-right: 5%;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background-color: #336699;
+	text-align: center;
+	color: #FFFFFF;
+	font-size: 12px;
+	}

@@ -1,0 +1,116 @@
+* {
+      box-sizing: border-box;
+      margin:     0;
+      padding:    0;
+}
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Redressed&family=Roboto:wght@100&display=swap');
+
+		p {
+               color:   #fff;
+           }
+           h1{
+           	color: #fff;
+           }
+
+	       .contenido {
+	           width:  100%;
+	       }
+
+	       .zona {
+	           max-width:      1080px;
+	           width:          100%;
+	           margin:         auto;
+	           padding:        32px;
+               font-family:    Tahoma;
+               font-size:      20px;
+	       }
+
+	       .centrado {
+               text-align:center;
+           }
+	
+           .negro {
+               background-color:    #252525;
+           }
+
+	       .parallaxIngles {
+		      height:                 500px;
+		      background-image:       url('./languages/english.jfif');
+		      background-size:        cover;
+		      background-attachment:  fixed;
+	       }
+           
+           .parallaxEspanol {
+               height:                 500px;
+               background-image:       url('./languages/espanol.jfif');
+               background-size:        cover;
+               background-attachment:  fixed;
+	       }
+			.parallaxAleman {
+               height:                 500px;
+               background-image:       url('./languages/aleman.jfif');
+               background-size:        cover;
+               background-attachment:  fixed;
+	       }
+	       .parallaxPortugues {
+               height:                 500px;
+               background-image:       url('./languages/portugues.jfif');
+               background-size:        cover;
+               background-attachment:  fixed;
+	       }
+
+
+nav{
+	background-color: #336699;
+	width: 100%;
+}
+
+.opcionmenu{
+	float: left;
+	background-color: #336699;
+	font-family: 'Roboto', sans-serif;
+	font-size: 20px;
+	color: #FFFFFF;
+	text-align: center;
+	padding: 10px;
+}
+.opcionmenu2{
+	float: left;
+	background-color: #336699;
+	font-family: 'Roboto', sans-serif;
+	font-size: 20px;
+	color: #FFFFFF;
+	text-align: center;
+	padding-top: 10px;
+	padding-left: 10px;
+	padding-bottom: 10px;
+}
+
+.opcionmenu:hover {
+	background-color: #FFFFFF;
+	font-family: Tahoma;
+	font-size: 20px;
+	color: #336699;
+	border-radius: 10px 10px 0px 0px;
+}
+.opcionmenu2:hover {
+	background-color: #FFFFFF;
+	font-family: Tahoma;
+	font-size: 20px;
+	color: #336699;
+	border-radius: 10px 10px 0px 0px;
+}
+.romper{
+	clear: both;
+}
+footer{	
+	bottom: 0px;
+	position: fixed;
+	width: 100%;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background-color: #336699;
+	text-align: center;
+	color: #FFFFFF;
+	font-size: 12px;
+	}
